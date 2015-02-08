@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" language="java" name="application" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/application" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="353" y="48"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="gui.frames" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/gui/frames" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="357" y="132"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="gui.panels.charts" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/gui/panels/charts" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="592" y="218"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="gui.panels.controls" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/gui/panels/controls" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="359" y="219"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="neuralnetwork" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/neuralnetwork" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="448" y="306"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="training" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/training" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="231" y="309"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="activation" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/activation" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="280" y="398"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="ga" project="NeuralNetworkProject" file="/NeuralNetworkProject/src/ga" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="140" y="400"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="business" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/business" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="78" y="104"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="10" language="java" name="exception" project="NeuralNetworkProject" 
+    file="/NeuralNetworkProject/src/exception" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="141" y="78"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="11" language="java" name="utils" project="NeuralNetworkProject" file="/NeuralNetworkProject/src/utils" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="87" y="159"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
