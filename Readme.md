@@ -1,5 +1,4 @@
 #AML FINAL PROJECT
-==========
 @hong & peng
 
 >Team name and logo wanted ...
@@ -12,13 +11,13 @@ Description
 Meeting Memo
 ----------
 
-Feb 8
+##Feb 8
 
-##work done:
+###work done:
 - Topic: financial prediction
 - routine: improve based on reference projects
 
-##task in comming week:
+###task in comming week:
 read reference projects and find out:
 - what data? 
     - price or RoE? 
@@ -33,7 +32,7 @@ read reference projects and find out:
     - using any tech index?
 - how to present result, any benchmark?
 
-##issues to discuss with TA or instructor: 
+###issues to discuss with TA or instructor: 
 - language
 - external packages
 - grading criteria
