@@ -1,0 +1,8 @@
+Fumin Shen 2014/02/23.
+
+Codes for face recognition with second-order pooling.
+
+do_exp_Coding_2ndPooling_1run.m 		--- dictionary learning + encoding + second-order pooling.
+do_exp_Coding_2ndPooling_2layer_1run.m	--- dictionary learning + encoding + second-order pooling with 2 layers.
+do_exp_only2ndPooling_1run.m			--- second-order pooling.
+*_5runs.m are codes for random training/testing data splits.

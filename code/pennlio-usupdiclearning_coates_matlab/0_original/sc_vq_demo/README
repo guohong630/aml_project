@@ -1,0 +1,46 @@
+Feature learning with VQ and random patches
+-------------------------------------------
+To run the demo, open sc_vq_demo.m and modify the CIFAR_DIR variable
+to point to the directory containing your CIFAR training and test
+data.  (These are the MATLAB files, which you can download from
+http://www.cs.toronto.edu/~kriz/cifar-10-matlab.tar.gz).
+
+To use the sparse coding components, you need to download the SPAMS
+toolkit from http://www.di.ens.fr/willow/SPAMS/ Once installed, change
+the SPAMS_DIR variable in the sc_vq_demo.m file to point to the
+directory containing the mex files (typically
+SPAMS/release/<platform>/).
+
+Run matlab, change into the sc_vq_demo directory and run "sc_vq_demo".
+The script will print out the error on the test set when finished.
+The parameters at the top of the file can be changed, but the defaults
+will yield performance > 79%.  You can change the 'alg' variable in
+the code to switch between VQ, sparse coding, and random patches for
+training.  You can change the 'encoder' variable to switch between the
+soft threshold and sparse coding encoders.  No cross-validation is
+done by this script -- the SVM regularization parameter is copied from
+the results obtained by our own validation on a random 80%/20% split
+of the training data.  As a result, some combinations of
+training/encoder may require adjustments.  (In the paper, the training
+and encoder parameters are both fully cross-validated on CIFAR.)
+
+minFunc optimization package
+----------------------------------
+See:  http://www.cs.ubc.ca/~schmidtm/Software/minFunc.html
+
+minFunc, written by Mark Schmidt, is included with this code.  The
+minFunc license follows:
+
+"This software is made available under the Creative Commons 
+Attribution-Noncommercial License.  You are free to use, copy, modify, and 
+re-distribute the work.  However, you must attribute any re-distribution or 
+adaptation in the manner specified below, and you may not use this work for 
+commercial purposes without the permission of the author.
+
+Any re-distribution or adaptation of this work must contain the author's name 
+and a link to the software's original webpage.  For example, any 
+re-distribution of the 'minFunc' software must contain a link to:
+http://www.cs.ubc.ca/~schmidtm/Software/minFunc.html
+
+This software comes with no guarantees, and all use of these codes is
+entirely at the user's own risk."

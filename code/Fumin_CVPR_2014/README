@@ -1,0 +1,34 @@
+
+CS: 24 May 2014
+---------------
+
+Title: 
+
+Is sparse representation based face recognition really interesting? 
+
+Is Sparse representation or collaborative representation really interesting in face recognition? 
+
+On the importance of encoding in face recognition
+
+
+
+To do:
+
+1. Is it possible to train a linear exemplar-SVM using only 1 positive
+   training image per class for classification? If that works, we can
+   claim ``face recognition with 1 training image per class''. 
+ --- Yes, we can. Refer to the results.doc.
+
+2. We need to know the impact of patch size; and pooling. How do they
+   contribute to the final classification performance? Yi Ma and all
+   others' methods don't have pooling at all. It is possible that
+   pooling improves a lot as in the generic image classification.
+
+3. If we look at the soft-thresholding equation in Page 4 of Coates
+   and Ng's ICML paper, the learned dictionary is nothing but a set of
+   image filters. When random noises (R in the ICML paper) are used as
+   the dictionary, it's the same as applying random projection, taking
+   a nonlinear max operation (which is very important because it
+   introduces nonlinearity) and then train a linear classifier. I'd
+   guess in theory, this set of linear image filters can be many other
+   formats such as Gabor filters. 
